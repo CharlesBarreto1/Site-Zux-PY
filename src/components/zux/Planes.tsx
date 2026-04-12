@@ -96,7 +96,7 @@ export function Planes() {
                 className="w-full"
                 asChild
               >
-                <a href="https://wa.me/595000000000" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
                   Contratar
                 </a>
               </Button>

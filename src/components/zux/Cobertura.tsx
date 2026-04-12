@@ -24,7 +24,7 @@ export function Cobertura() {
             Escribinos por WhatsApp y te confirmamos la cobertura al instante.
           </p>
           <a
-            href="https://wa.me/595000000000"
+            href="https://wa.me/595984056260"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 gradient-primary rounded-lg px-8 py-3 font-semibold text-primary-foreground transition-transform hover:scale-105"

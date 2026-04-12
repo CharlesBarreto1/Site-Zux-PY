@@ -40,12 +40,12 @@ export function Hero() {
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center opacity-0 animate-slide-up-delay">
           <Button variant="hero" size="xl" asChild>
-            <a href="https://wa.me/595000000000" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
               Contratar ahora
             </a>
           </Button>
           <Button variant="heroOutline" size="xl" asChild>
-            <a href="https://wa.me/595000000000" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
               Hablar por WhatsApp
             </a>
           </Button>
