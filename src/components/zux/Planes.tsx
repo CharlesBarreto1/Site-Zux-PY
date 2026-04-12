@@ -7,7 +7,7 @@ const planes = [
     speed: "500 Mbps",
     price: "130.000",
     desc: "Ideal para hogares exigentes",
-    features: ["500 Mbps simétricos", "Fibra óptica directa", "Soporte técnico prioritario", "Sin límite de datos"],
+    features: ["500 Mbps simétricos", "Fibra óptica directa", "Equipo Wi-Fi 5 incluido", "Soporte técnico prioritario", "Sin límite de datos"],
     popular: false,
   },
   {
@@ -15,7 +15,7 @@ const planes = [
     speed: "750 Mbps",
     price: "170.000",
     desc: "Más vendido — rendimiento superior",
-    features: ["750 Mbps simétricos", "Fibra óptica directa", "Soporte técnico prioritario", "Sin límite de datos", "Router premium incluido"],
+    features: ["750 Mbps simétricos", "Fibra óptica directa", "Equipo Wi-Fi 6E incluido", "Soporte técnico prioritario", "Sin límite de datos"],
     popular: true,
   },
   {
@@ -23,7 +23,7 @@ const planes = [
     speed: "1 Gbps",
     price: "220.000",
     desc: "Máximo rendimiento sin compromisos",
-    features: ["1 Gbps simétrico", "Fibra óptica directa", "Soporte técnico VIP", "Sin límite de datos", "Router premium incluido", "Prioridad de instalación"],
+    features: ["1 Gbps simétrico", "Fibra óptica directa", "Equipo Wi-Fi 6E incluido", "1 punto mesh adicional gratis", "Soporte técnico VIP", "Sin límite de datos", "Prioridad de instalación"],
     popular: false,
   },
 ];
