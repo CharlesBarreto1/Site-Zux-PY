@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import zuxLogo from "@/assets/zux-logo.png";
 
 const navLinks = [
   { label: "Inicio", href: "#hero" },
@@ -30,8 +31,8 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 md:px-8">
-        <a href="#hero" className="text-2xl font-black tracking-tight gradient-text">
-          ZUX
+        <a href="#hero" className="flex items-center">
+          <img src={zuxLogo} alt="Zux" className="h-8 w-auto" />
         </a>
 
         {/* Desktop nav */}

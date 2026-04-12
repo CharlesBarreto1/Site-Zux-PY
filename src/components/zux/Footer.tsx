@@ -1,9 +1,11 @@
+import zuxLogo from "@/assets/zux-logo.png";
+
 export function Footer() {
   return (
     <footer className="border-t border-border/30 py-12 px-4">
       <div className="mx-auto max-w-7xl flex flex-col items-center gap-6 md:flex-row md:justify-between">
         <div>
-          <span className="text-xl font-black gradient-text">ZUX</span>
+          <img src={zuxLogo} alt="Zux" className="h-8 w-auto" />
           <p className="mt-1 text-xs text-muted-foreground">
             La mejor internet del Paraguay
           </p>
