@@ -14,9 +14,7 @@ export function Cobertura() {
           <span className="gradient-text">del Paraguay</span>
         </h2>
         <p className="mt-6 text-muted-foreground max-w-xl mx-auto leading-relaxed">
-          Nuestra red de fibra óptica sigue creciendo para llevar internet de
-          nivel mundial a más ciudades del país. Consultá disponibilidad en tu
-          zona por WhatsApp.
+          Actualmente brindamos cobertura en <span className="text-foreground font-semibold">Doctor Juan León Mallorquín</span>, llevando internet de nivel mundial con fibra óptica de última generación. Pronto en más ciudades del país.
         </p>
         <div className="mt-10 glass-card p-8 md:p-12">
           <p className="text-lg font-semibold mb-2">
