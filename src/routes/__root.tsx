@@ -35,10 +35,14 @@ export const Route = createRootRoute({
       { name: "description", content: "La mejor internet del Paraguay. Fibra óptica con velocidad simétrica real." },
       { name: "author", content: "Zux" },
       { property: "og:title", content: "Zux — Internet Premium Paraguay" },
-      { property: "og:description", content: "La mejor internet del Paraguay. Velocidad simétrica real." },
+      { property: "og:description", content: "La mejor internet del Paraguay. Fibra óptica con velocidad simétrica real." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@zux_py" },
+      { name: "twitter:title", content: "Zux — Internet Premium Paraguay" },
+      { name: "twitter:description", content: "La mejor internet del Paraguay. Fibra óptica con velocidad simétrica real." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/4f2ce1b0-9c5f-41e9-92eb-e5d5b628c497" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/4f2ce1b0-9c5f-41e9-92eb-e5d5b628c497" },
     ],
     links: [
       {
