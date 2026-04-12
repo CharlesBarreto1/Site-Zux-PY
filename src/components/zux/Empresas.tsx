@@ -32,7 +32,7 @@ export function Empresas() {
                 detiene, y tu internet tampoco.
               </p>
               <Button variant="hero" size="lg" className="mt-8" asChild>
-                <a href="https://wa.me/595000000000" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
                   Solicitar propuesta
                 </a>
               </Button>
