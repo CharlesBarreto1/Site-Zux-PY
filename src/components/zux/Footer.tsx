@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import { Link } from "react-router-dom";
 import zuxLogo from "@/assets/zux-logo.png";
 
 export function Footer() {

@@ -1,7 +1,8 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { Link } from "react-router-dom";
 import { Header } from "@/components/zux/Header";
 import { Footer } from "@/components/zux/Footer";
 import { WhatsAppButton } from "@/components/zux/WhatsAppButton";
+import { useDocumentMeta } from "@/hooks/use-document-meta";
 import {
   Shield,
   Smartphone,
@@ -13,29 +14,6 @@ import {
   Lock,
   BarChart3,
 } from "lucide-react";
-
-export const Route = createFileRoute("/control-parental")({
-  head: () => ({
-    meta: [
-      { title: "Control Parental y Marco Legal — Zux Internet" },
-      {
-        name: "description",
-        content:
-          "Herramientas gratuitas de control parental y marco legal paraguayo. Ley N° 5653, Ley N° 642 de Telecomunicaciones, CONATEL y protección de datos.",
-      },
-      {
-        property: "og:title",
-        content: "Control Parental y Marco Legal — Zux Internet",
-      },
-      {
-        property: "og:description",
-        content:
-          "Protegé a tu familia en internet. Cumplimos con la legislación paraguaya de telecomunicaciones y protección de menores.",
-      },
-    ],
-  }),
-  component: ControlParental,
-});
 
 const tools = [
   {
@@ -145,7 +123,16 @@ const legalFramework = [
   },
 ];
 
-function ControlParental() {
+export default function ControlParental() {
+  useDocumentMeta({
+    title: "Control Parental y Marco Legal — Zux Internet",
+    description:
+      "Herramientas gratuitas de control parental y marco legal paraguayo. Ley N° 5653, Ley N° 642 de Telecomunicaciones, CONATEL y protección de datos.",
+    ogTitle: "Control Parental y Marco Legal — Zux Internet",
+    ogDescription:
+      "Protegé a tu familia en internet. Cumplimos con la legislación paraguaya de telecomunicaciones y protección de menores.",
+  });
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
