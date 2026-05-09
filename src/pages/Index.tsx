@@ -4,7 +4,6 @@ import { Diferenciales } from "@/components/zux/Diferenciales";
 import { Planes } from "@/components/zux/Planes";
 import { Tecnologia } from "@/components/zux/Tecnologia";
 import { Empresas } from "@/components/zux/Empresas";
-import { Testimonios } from "@/components/zux/Testimonios";
 import { Cobertura } from "@/components/zux/Cobertura";
 import { CTAFinal } from "@/components/zux/CTAFinal";
 import { Footer } from "@/components/zux/Footer";
@@ -28,7 +27,6 @@ export default function Index() {
       <Planes />
       <Tecnologia />
       <Empresas />
-      <Testimonios />
       <Cobertura />
       <CTAFinal />
       <Footer />

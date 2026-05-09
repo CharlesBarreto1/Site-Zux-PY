@@ -4,8 +4,8 @@ import { Building2, Link2, Clock, Gauge } from "lucide-react";
 const features = [
   { icon: Building2, label: "Internet corporativo dedicado" },
   { icon: Link2, label: "Enlaces dedicados punto a punto" },
-  { icon: Clock, label: "SLA garantizado con respuesta inmediata" },
-  { icon: Gauge, label: "Baja latencia para operaciones críticas" },
+  { icon: Clock, label: "SLA con respuesta de verdad" },
+  { icon: Gauge, label: "Baja latencia para operaciones que no esperan" },
 ];
 
 export function Empresas() {
@@ -24,16 +24,16 @@ export function Empresas() {
               <h2 className="text-3xl font-bold md:text-4xl">
                 Para empresas que
                 <br />
-                <span className="gradient-text">no pueden fallar</span>
+                <span className="gradient-text">no pueden parar</span>
               </h2>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                Soluciones de conectividad empresarial con los más altos
-                estándares de disponibilidad y rendimiento. Tu operación no se
-                detiene, y tu internet tampoco.
+                Soluciones de conectividad empresarial con disponibilidad y
+                rendimiento de verdad. Tu operación no se detiene, tu internet
+                tampoco. Hablamos tu idioma — técnico cuando hace falta, claro siempre.
               </p>
               <Button variant="hero" size="lg" className="mt-8" asChild>
                 <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
-                  Solicitar propuesta
+                  Pedí una propuesta
                 </a>
               </Button>
             </div>

@@ -51,7 +51,7 @@ export function Header() {
         <div className="hidden md:block">
           <Button variant="hero" size="lg" asChild>
             <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
-              Contratar ahora
+              Lo quiero
             </a>
           </Button>
         </div>
@@ -82,7 +82,7 @@ export function Header() {
             ))}
             <Button variant="hero" size="lg" className="mt-2" asChild>
               <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
-                Contratar ahora
+                Lo quiero
               </a>
             </Button>
           </nav>

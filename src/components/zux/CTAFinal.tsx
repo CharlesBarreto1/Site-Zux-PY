@@ -8,22 +8,20 @@ export function CTAFinal() {
 
       <div className="relative mx-auto max-w-3xl text-center">
         <h2 className="text-3xl font-bold md:text-5xl">
-          Conéctate con
-          <br />
-          <span className="gradient-text neon-text">lo mejor</span>
+          Conectate, <span className="gradient-text neon-text">kuera</span>
         </h2>
         <p className="mt-4 text-lg text-muted-foreground">
-          Experimentá la diferencia real. Internet premium, sin excusas.
+          Probá la diferencia. Internet en serio, sin excusas, sin asteriscos.
         </p>
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Button variant="hero" size="xl" asChild>
             <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
-              Contratar ahora
+              Lo quiero
             </a>
           </Button>
           <Button variant="heroOutline" size="xl" asChild>
             <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
-              Hablar por WhatsApp
+              Charlemos por WhatsApp
             </a>
           </Button>
         </div>

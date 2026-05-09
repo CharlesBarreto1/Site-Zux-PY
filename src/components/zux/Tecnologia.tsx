@@ -3,23 +3,23 @@ import { Server, Activity, Gauge, ShieldCheck } from "lucide-react";
 const techItems = [
   {
     icon: Server,
-    title: "Equipos de alto rendimiento",
-    desc: "Hardware de clase empresarial en cada nodo de nuestra red.",
+    title: "Equipos de los buenos",
+    desc: "Hardware de clase empresarial en cada nodo. Nada de equipos baratos que después fallan.",
   },
   {
     icon: Activity,
-    title: "Red diseñada para estabilidad",
-    desc: "Arquitectura redundante que garantiza conexión continua.",
+    title: "Red diseñada para no caer",
+    desc: "Arquitectura redundante: si un camino falla, hay otros listos. Tu conexión sigue.",
   },
   {
     icon: Gauge,
-    title: "Baja latencia garantizada",
-    desc: "Optimización de rutas para la menor latencia posible.",
+    title: "Latencia baja, gaming sin lag",
+    desc: "Optimización de rutas para la menor latencia posible. Streamers y gamers nos prefieren.",
   },
   {
     icon: ShieldCheck,
-    title: "Seguridad de nivel corporativo",
-    desc: "Protección avanzada contra amenazas en toda la red.",
+    title: "Seguridad seria",
+    desc: "Protección de nivel corporativo en toda la red. Tus datos quedan donde tienen que quedar.",
   },
 ];
 
@@ -37,17 +37,17 @@ export function Tecnologia() {
               Tecnología
             </p>
             <h2 className="text-3xl font-bold md:text-5xl">
-              Infraestructura de
+              Infraestructura
               <br />
-              <span className="gradient-text">nivel mundial</span>
+              <span className="gradient-text">de primera</span>
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
-              Utilizamos tecnología europea y americana de última generación.
-              Nada de soluciones económicas de baja calidad. Solo lo mejor para
-              garantizar rendimiento real en cada conexión.
+              Trabajamos con tecnología internacional de las buenas — equipos europeos
+              y americanos. Nada de soluciones baratas que después fallan. Solo lo
+              mejor para que tu conexión rinda en serio, todos los días.
             </p>
             <p className="mt-4 text-sm font-medium text-primary/80">
-              "No usamos tecnología barata. Usamos lo mejor del mundo."
+              "No usamos lo barato. Usamos lo bueno."
             </p>
           </div>
 

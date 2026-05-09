@@ -10,6 +10,9 @@ export function Footer() {
           <p className="mt-1 text-xs text-muted-foreground">
             La mejor internet del Paraguay
           </p>
+          <p className="mt-1 text-xs text-primary/70 italic">
+            Aguyje por confiar en Zux.
+          </p>
         </div>
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-muted-foreground">
           <a href="/#planes" className="hover:text-foreground transition-colors">Planes</a>

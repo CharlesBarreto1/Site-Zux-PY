@@ -7,23 +7,43 @@ const planes = [
     speed: "500 Mbps",
     price: "130.000",
     desc: "Ideal para hogares exigentes",
-    features: ["500 Mbps simétricos", "Fibra óptica directa", "Equipo Wi-Fi 5 incluido", "Soporte técnico prioritario", "Sin límite de datos"],
+    features: [
+      "500 Mbps de subida y bajada",
+      "Fibra óptica directa hasta tu casa",
+      "Equipo Wi-Fi 5 incluido",
+      "Soporte técnico prioritario",
+      "Sin límite de datos",
+    ],
     popular: false,
   },
   {
     name: "Plan 750",
     speed: "750 Mbps",
     price: "170.000",
-    desc: "Más vendido — rendimiento superior",
-    features: ["750 Mbps simétricos", "Fibra óptica directa", "Equipo Wi-Fi 6E incluido", "Soporte técnico prioritario", "Sin límite de datos"],
+    desc: "El más elegido — rinde lo que promete",
+    features: [
+      "750 Mbps de subida y bajada",
+      "Fibra óptica directa hasta tu casa",
+      "Equipo Wi-Fi 6E incluido",
+      "Soporte técnico prioritario",
+      "Sin límite de datos",
+    ],
     popular: true,
   },
   {
     name: "Plan 1 Giga",
     speed: "1 Gbps",
     price: "220.000",
-    desc: "Máximo rendimiento sin compromisos",
-    features: ["1 Gbps simétrico", "Fibra óptica directa", "Equipo Wi-Fi 6E incluido", "1 punto mesh adicional gratis", "Soporte técnico VIP", "Sin límite de datos", "Prioridad de instalación"],
+    desc: "Lo máximo, sin compromisos",
+    features: [
+      "1 Gbps de subida y bajada",
+      "Fibra óptica directa hasta tu casa",
+      "Equipo Wi-Fi 6E incluido",
+      "1 punto mesh adicional gratis",
+      "Soporte técnico VIP",
+      "Sin límite de datos",
+      "Prioridad de instalación",
+    ],
     popular: false,
   },
 ];
@@ -40,7 +60,7 @@ export function Planes() {
             Velocidad real, precio justo
           </h2>
           <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-            Todos nuestros planes son 100% simétricos. La misma velocidad de subida y bajada.
+            Todos los planes vienen con la misma velocidad de subida y bajada. Sin asteriscos, sin sorpresas.
           </p>
         </div>
 
@@ -57,7 +77,7 @@ export function Planes() {
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                   <span className="gradient-primary rounded-full px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-primary-foreground">
-                    Más vendido
+                    El más elegido
                   </span>
                 </div>
               )}
@@ -72,7 +92,7 @@ export function Planes() {
                   <span className="text-4xl font-black gradient-text">{plan.speed}</span>
                 </div>
                 <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-primary">
-                  ↑↓ Simétrico
+                  Subida = Bajada
                 </p>
               </div>
 
@@ -97,7 +117,7 @@ export function Planes() {
                 asChild
               >
                 <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
-                  Contratar
+                  Lo quiero
                 </a>
               </Button>
             </div>

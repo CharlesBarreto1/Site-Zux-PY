@@ -3,33 +3,33 @@ import { Zap, Shield, Globe, Brain, Wrench, MapPin } from "lucide-react";
 const items = [
   {
     icon: Zap,
-    title: "Velocidad simétrica real",
-    desc: "Misma velocidad de subida y bajada. Sin trucos, sin letras chicas.",
+    title: "Subida y bajada iguales",
+    desc: "Misma velocidad para subir y para bajar. Sin trucos, sin letras chicas, sin sorpresas a fin de mes.",
   },
   {
     icon: Shield,
-    title: "Conexión ultra estable",
-    desc: "Red diseñada para cero cortes. Estabilidad que se siente.",
+    title: "Conexión que no cae",
+    desc: "Red diseñada para aguantar. Estable de verdad — no de promesa de vendedor.",
   },
   {
     icon: Globe,
-    title: "Fibra óptica de última generación",
-    desc: "Infraestructura premium con la mejor tecnología disponible.",
+    title: "Fibra óptica de las buenas",
+    desc: "Infraestructura de primera, traída desde afuera y montada con cuidado acá.",
   },
   {
     icon: Brain,
-    title: "Ingeniería de nivel internacional",
-    desc: "Diseño de red con estándares europeos y americanos.",
+    title: "Ingeniería sin atajos",
+    desc: "Diseño de red con estándares internacionales. Hecho para durar muchos años, no para salir del paso.",
   },
   {
     icon: Wrench,
-    title: "Soporte rápido y eficiente",
-    desc: "Atención técnica real por personas que saben lo que hacen.",
+    title: "Soporte de carne y hueso",
+    desc: "Atención técnica con personas que entienden. Sin bots, sin call center genérico, sin guiones.",
   },
   {
     icon: MapPin,
-    title: "Presencia local en Paraguay",
-    desc: "Tecnología global con atención cercana y personalizada.",
+    title: "Ñande reko · Atención de acá",
+    desc: "Tecnología internacional con cabeza paraguaya. Te entendemos porque somos vecinos.",
   },
 ];
 
@@ -42,10 +42,10 @@ export function Diferenciales() {
             ¿Por qué Zux?
           </p>
           <h2 className="text-3xl font-bold md:text-5xl">
-            No es una operadora más
+            No somos una operadora más
           </h2>
           <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-            Cada detalle de nuestra red está diseñado para ofrecer rendimiento real, no promesas.
+            Cada detalle de nuestra red está pensado para rendir de verdad. Sin promesas vacías.
           </p>
         </div>
 

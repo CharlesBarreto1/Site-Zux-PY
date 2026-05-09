@@ -20,7 +20,7 @@ export function Hero() {
       <div className="relative z-10 mx-auto max-w-5xl px-4 text-center">
         <div className="opacity-0 animate-slide-up">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-primary">
-            Internet Premium en Paraguay
+            Internet en serio · Alto Paraná y todo el Paraguay
           </p>
           <h1 className="text-4xl font-black leading-tight tracking-tight md:text-6xl lg:text-7xl">
             La mejor internet
@@ -31,7 +31,7 @@ export function Hero() {
 
         <div className="opacity-0 animate-slide-up-delay">
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-            Velocidad simétrica real. Estabilidad total. Tecnología de nivel mundial.
+            Subida y bajada iguales. Estabilidad de verdad. Tecnología internacional, atención de acá.
           </p>
           <p className="mt-3 text-sm font-medium text-primary/80 italic">
             No es marketing. Es ingeniería.
@@ -41,12 +41,12 @@ export function Hero() {
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center opacity-0 animate-slide-up-delay">
           <Button variant="hero" size="xl" asChild>
             <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
-              Contratar ahora
+              Lo quiero
             </a>
           </Button>
           <Button variant="heroOutline" size="xl" asChild>
             <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
-              Hablar por WhatsApp
+              Charlemos por WhatsApp
             </a>
           </Button>
         </div>
