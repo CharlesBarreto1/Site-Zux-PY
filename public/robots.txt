@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zux.com.py/sitemap.xml

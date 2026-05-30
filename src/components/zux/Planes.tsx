@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
+import { whatsappUrl, waMessages } from "@/lib/whatsapp";
 
 const planes = [
   {
@@ -116,7 +117,11 @@ export function Planes() {
                 className="w-full"
                 asChild
               >
-                <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
+                <a
+                  href={whatsappUrl(waMessages.plan(plan.name, plan.speed, plan.price))}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Lo quiero
                 </a>
               </Button>

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { whatsappUrl, waMessages } from "@/lib/whatsapp";
 
 export function CTAFinal() {
   return (
@@ -15,12 +16,12 @@ export function CTAFinal() {
         </p>
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Button variant="hero" size="xl" asChild>
-            <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
+            <a href={whatsappUrl(waMessages.contratar)} target="_blank" rel="noopener noreferrer">
               Lo quiero
             </a>
           </Button>
           <Button variant="heroOutline" size="xl" asChild>
-            <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
+            <a href={whatsappUrl(waMessages.general)} target="_blank" rel="noopener noreferrer">
               Charlemos por WhatsApp
             </a>
           </Button>

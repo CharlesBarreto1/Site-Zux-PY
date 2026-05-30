@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Building2, Link2, Clock, Gauge } from "lucide-react";
+import { whatsappUrl, waMessages } from "@/lib/whatsapp";
 
 const features = [
   { icon: Building2, label: "Internet corporativo dedicado" },
@@ -32,7 +33,7 @@ export function Empresas() {
                 tampoco. Hablamos tu idioma — técnico cuando hace falta, claro siempre.
               </p>
               <Button variant="hero" size="lg" className="mt-8" asChild>
-                <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
+                <a href={whatsappUrl(waMessages.empresas)} target="_blank" rel="noopener noreferrer">
                   Pedí una propuesta
                 </a>
               </Button>

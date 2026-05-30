@@ -1,13 +1,14 @@
 import { MapPin, Check, Clock } from "lucide-react";
+import { whatsappUrl, waMessages } from "@/lib/whatsapp";
 
 const ciudadesActivas = [
   { name: "Doctor Juan León Mallorquín", state: "Alto Paraná" },
+  { name: "Santa Rita", state: "Alto Paraná" },
 ];
 
 const ciudadesProximas = [
   { name: "O'Leary", state: "Alto Paraná" },
   { name: "Campo 9", state: "Caaguazú" },
-  { name: "Santa Rita", state: "Alto Paraná" },
 ];
 
 export function Cobertura() {
@@ -95,7 +96,7 @@ export function Cobertura() {
             Escribinos por WhatsApp y te confirmamos al toque.
           </p>
           <a
-            href="https://wa.me/595984056260"
+            href={whatsappUrl(waMessages.cobertura)}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 gradient-primary rounded-lg px-8 py-3 font-semibold text-primary-foreground transition-transform hover:scale-105"

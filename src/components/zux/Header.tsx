@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import zuxLogo from "@/assets/zux-logo.png";
+import { whatsappUrl, waMessages } from "@/lib/whatsapp";
 
 const navLinks = [
   { label: "Inicio", href: "#hero" },
@@ -50,7 +51,7 @@ export function Header() {
 
         <div className="hidden md:block">
           <Button variant="hero" size="lg" asChild>
-            <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
+            <a href={whatsappUrl(waMessages.contratar)} target="_blank" rel="noopener noreferrer">
               Lo quiero
             </a>
           </Button>
@@ -81,7 +82,7 @@ export function Header() {
               </a>
             ))}
             <Button variant="hero" size="lg" className="mt-2" asChild>
-              <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
+              <a href={whatsappUrl(waMessages.contratar)} target="_blank" rel="noopener noreferrer">
                 Lo quiero
               </a>
             </Button>

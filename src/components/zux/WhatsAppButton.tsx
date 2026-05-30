@@ -1,9 +1,10 @@
 import { MessageCircle } from "lucide-react";
+import { whatsappUrl, waMessages } from "@/lib/whatsapp";
 
 export function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/595984056260"
+      href={whatsappUrl(waMessages.general)}
       target="_blank"
       rel="noopener noreferrer"
       title="Mba'éichapa · Hablemos por WhatsApp"

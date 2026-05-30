@@ -8,15 +8,17 @@ import { Cobertura } from "@/components/zux/Cobertura";
 import { CTAFinal } from "@/components/zux/CTAFinal";
 import { Footer } from "@/components/zux/Footer";
 import { WhatsAppButton } from "@/components/zux/WhatsAppButton";
+import { SeoPT } from "@/components/zux/SeoPT";
 import { useDocumentMeta } from "@/hooks/use-document-meta";
 
 export default function Index() {
   useDocumentMeta({
-    title: "Zux — La Mejor Internet del Paraguay",
+    title: "Zux — La Mejor Internet del Paraguay | Fibra Óptica en Alto Paraná",
     description:
-      "Internet de fibra óptica premium con velocidad simétrica real, estabilidad total y tecnología de nivel mundial. Planes desde 130.000 Gs.",
+      "Internet de fibra óptica premium en Santa Rita, Juan León Mallorquín y todo el Alto Paraná. Velocidad simétrica real, estabilidad total y soporte local. Planes desde 130.000 Gs.",
     ogTitle: "Zux — La Mejor Internet del Paraguay",
-    ogDescription: "Velocidad simétrica real. Estabilidad total. Tecnología de nivel mundial.",
+    ogDescription:
+      "Fibra óptica con velocidad simétrica real en Santa Rita, Mallorquín y todo el Alto Paraná. Estabilidad total. Tecnología de nivel mundial, atención de acá.",
   });
 
   return (
@@ -29,6 +31,7 @@ export default function Index() {
       <Empresas />
       <Cobertura />
       <CTAFinal />
+      <SeoPT />
       <Footer />
       <WhatsAppButton />
     </div>

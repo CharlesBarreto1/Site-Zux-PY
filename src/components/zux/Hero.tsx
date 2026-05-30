@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-city.jpg";
+import { whatsappUrl, waMessages } from "@/lib/whatsapp";
 
 export function Hero() {
   return (
@@ -40,12 +41,12 @@ export function Hero() {
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center opacity-0 animate-slide-up-delay">
           <Button variant="hero" size="xl" asChild>
-            <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
+            <a href={whatsappUrl(waMessages.contratar)} target="_blank" rel="noopener noreferrer">
               Lo quiero
             </a>
           </Button>
           <Button variant="heroOutline" size="xl" asChild>
-            <a href="https://wa.me/595984056260" target="_blank" rel="noopener noreferrer">
+            <a href={whatsappUrl(waMessages.general)} target="_blank" rel="noopener noreferrer">
               Charlemos por WhatsApp
             </a>
           </Button>
