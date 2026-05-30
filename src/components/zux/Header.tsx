@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import zuxLogo from "@/assets/zux-logo.png";
@@ -47,6 +48,12 @@ export function Header() {
               {l.label}
             </a>
           ))}
+          <Link
+            to="/control-parental"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Control Parental
+          </Link>
         </nav>
 
         <div className="hidden md:block">
@@ -81,6 +88,13 @@ export function Header() {
                 {l.label}
               </a>
             ))}
+            <Link
+              to="/control-parental"
+              className="text-foreground text-base"
+              onClick={() => setMobileOpen(false)}
+            >
+              Control Parental
+            </Link>
             <Button variant="hero" size="lg" className="mt-2" asChild>
               <a href={whatsappUrl(waMessages.contratar)} target="_blank" rel="noopener noreferrer">
                 Lo quiero
