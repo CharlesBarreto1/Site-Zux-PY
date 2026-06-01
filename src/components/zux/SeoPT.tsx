@@ -19,7 +19,7 @@ export function SeoPT() {
       <p>
         Para os brasileiros que moram no Paraguai (brasiguaios) em Santa Rita e Mallorquín,
         a Zux oferece a melhor internet fibra óptica do Paraguai, com planos a partir de
-        130.000 Gs, sem limite de dados e com atendimento que fala português e espanhol.
+        125.000 Gs, sem limite de dados e com atendimento que fala português e espanhol.
         Internet estável para trabalhar, estudar, jogar e fazer streaming.
       </p>
       <p>

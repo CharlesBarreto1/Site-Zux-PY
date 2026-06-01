@@ -15,7 +15,7 @@ export default function Index() {
   useDocumentMeta({
     title: "Zux — La Mejor Internet del Paraguay | Fibra Óptica en Alto Paraná",
     description:
-      "Internet de fibra óptica premium en Santa Rita, Juan León Mallorquín y todo el Alto Paraná. Velocidad simétrica real, estabilidad total y soporte local. Planes desde 130.000 Gs.",
+      "Internet de fibra óptica premium en Santa Rita, Juan León Mallorquín y todo el Alto Paraná. Velocidad simétrica real, estabilidad total y soporte local. Planes desde 125.000 Gs.",
     ogTitle: "Zux — La Mejor Internet del Paraguay",
     ogDescription:
       "Fibra óptica con velocidad simétrica real en Santa Rita, Mallorquín y todo el Alto Paraná. Estabilidad total. Tecnología de nivel mundial, atención de acá.",
