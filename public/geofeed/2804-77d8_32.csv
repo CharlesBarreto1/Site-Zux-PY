@@ -1,0 +1,39 @@
+# Zux Internet - AS271203 - geofeed RFC 8805 do bloco 2804:77d8::/32
+# Um arquivo por bloco cadastrado no Registro.br (so este bloco e sub-blocos).
+# Fonte e criterio de cada linha: zux-netdocs br/inventario/geofeed.md
+# Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
+# Atualizado: 2026-09-30
+#
+# Agregado: so o estado. Vale para faixa ainda sem linha propria (longest match).
+2804:77d8::/32,BR,BR-PR,,
+#
+# Infraestrutura (loopbacks, enlaces) e servidores, em Campo Mourão
+2804:77d8::/48,BR,BR-PR,Campo Mourão,
+2804:77d8:bebe:cafe::/64,BR,BR-PR,Campo Mourão,
+# Campo Mourão (CPM1): WAN /51 e PD /43
+2804:77d8:100::/51,BR,BR-PR,Campo Mourão,
+2804:77d8:200::/43,BR,BR-PR,Campo Mourão,
+# Luiziana: LZN1 (novo e legado) e LZN2
+2804:77d8:20::/48,BR,BR-PR,Luiziana,
+2804:77d8:80::/42,BR,BR-PR,Luiziana,
+2804:77d8:100:2000::/51,BR,BR-PR,Luiziana,
+2804:77d8:100:8000::/51,BR,BR-PR,Luiziana,
+2804:77d8:220::/43,BR,BR-PR,Luiziana,
+2804:77d8:260::/43,BR,BR-PR,Luiziana,
+# Iretama (IRT e Águas de Jurema)
+2804:77d8:100:c000::/51,BR,BR-PR,Iretama,
+2804:77d8:2c0::/43,BR,BR-PR,Iretama,
+# Corumbataí do Sul
+2804:77d8:100:a000::/51,BR,BR-PR,Corumbataí do Sul,
+2804:77d8:2a0::/43,BR,BR-PR,Corumbataí do Sul,
+# Barbosa Ferraz (inclui a Prefeitura: 10::/48 e 12::/48)
+2804:77d8:10::/48,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:11::/48,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:12::/48,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:c0::/42,BR,BR-PR,Barbosa Ferraz,
+# Godoy Moreira
+2804:77d8:100:6000::/51,BR,BR-PR,Godoy Moreira,
+2804:77d8:280::/43,BR,BR-PR,Godoy Moreira,
+# Engenheiro Beltrão
+2804:77d8:100:4000::/51,BR,BR-PR,Engenheiro Beltrão,
+2804:77d8:240::/43,BR,BR-PR,Engenheiro Beltrão,

@@ -1,0 +1,9 @@
+# Zux - geofeed RFC 8805 do bloco 206.62.116.0/22
+# Bloco alugado da Cogent (ARIN, dentro do 206.62.0.0/16), contratado pelo CNPJ do BR e designado ao AS64179.
+# A intencao e dividir entre PY e BR; sub-bloco usado no BR entra com linha BR-PR propria (longest match).
+# Fonte e criterio de cada linha: zux-netdocs py/inventario/geofeed.md
+# Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
+# Atualizado: 2026-10-02
+#
+# Agregado: so o departamento (Alto Paraná). Vale enquanto o /22 nao tiver divisao por POP.
+206.62.116.0/22,PY,PY-10,,

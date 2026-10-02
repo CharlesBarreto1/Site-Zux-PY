@@ -1,0 +1,65 @@
+# Zux - geofeed RFC 8805 consolidado (AS271203 BR e AS64179 PY)
+# Gerado a partir dos arquivos por bloco do zux-netdocs; nao editar a mao.
+# Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
+# Atualizado: 2026-10-02
+#
+# --- geofeed-179.49.176.0_22.csv
+179.49.176.0/22,BR,BR-PR,,
+179.49.176.0/28,BR,BR-PR,Campo Mourão,
+179.49.176.16/28,BR,BR-PR,Campo Mourão,
+179.49.176.64/28,BR,BR-PR,Campo Mourão,
+179.49.176.80/32,BR,BR-PR,Campo Mourão,
+179.49.176.96/28,BR,BR-PR,Campo Mourão,
+179.49.178.104/30,BR,BR-PR,Campo Mourão,
+179.49.176.172/30,BR,BR-PR,Mamboré,
+179.49.177.0/28,BR,BR-PR,Luiziana,
+179.49.177.128/26,BR,BR-PR,Luiziana,
+179.49.177.192/26,BR,BR-PR,Luiziana,
+179.49.178.0/28,BR,BR-PR,Iretama,
+179.49.178.36/30,BR,BR-PR,Iretama,
+179.49.176.65/32,BR,BR-PR,Corumbataí do Sul,
+179.49.176.68/32,BR,BR-PR,Corumbataí do Sul,
+179.49.176.76/32,BR,BR-PR,Corumbataí do Sul,
+179.49.176.168/30,BR,BR-PR,Corumbataí do Sul,
+179.49.179.224/28,BR,BR-PR,Corumbataí do Sul,
+179.49.176.67/32,BR,BR-PR,Barbosa Ferraz,
+179.49.176.192/31,BR,BR-PR,Barbosa Ferraz,
+179.49.179.36/30,BR,BR-PR,Barbosa Ferraz,
+179.49.179.240/28,BR,BR-PR,Barbosa Ferraz,
+179.49.176.152/29,BR,BR-PR,Godoy Moreira,
+179.49.179.40/30,BR,BR-PR,Godoy Moreira,
+179.49.176.160/29,BR,BR-PR,Engenheiro Beltrão,
+#
+# --- geofeed-2804-77d8_32.csv
+2804:77d8::/32,BR,BR-PR,,
+2804:77d8::/48,BR,BR-PR,Campo Mourão,
+2804:77d8:bebe:cafe::/64,BR,BR-PR,Campo Mourão,
+2804:77d8:100::/51,BR,BR-PR,Campo Mourão,
+2804:77d8:200::/43,BR,BR-PR,Campo Mourão,
+2804:77d8:20::/48,BR,BR-PR,Luiziana,
+2804:77d8:80::/42,BR,BR-PR,Luiziana,
+2804:77d8:100:2000::/51,BR,BR-PR,Luiziana,
+2804:77d8:100:8000::/51,BR,BR-PR,Luiziana,
+2804:77d8:220::/43,BR,BR-PR,Luiziana,
+2804:77d8:260::/43,BR,BR-PR,Luiziana,
+2804:77d8:100:c000::/51,BR,BR-PR,Iretama,
+2804:77d8:2c0::/43,BR,BR-PR,Iretama,
+2804:77d8:100:a000::/51,BR,BR-PR,Corumbataí do Sul,
+2804:77d8:2a0::/43,BR,BR-PR,Corumbataí do Sul,
+2804:77d8:10::/48,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:11::/48,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:12::/48,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:c0::/42,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:100:6000::/51,BR,BR-PR,Godoy Moreira,
+2804:77d8:280::/43,BR,BR-PR,Godoy Moreira,
+2804:77d8:100:4000::/51,BR,BR-PR,Engenheiro Beltrão,
+2804:77d8:240::/43,BR,BR-PR,Engenheiro Beltrão,
+#
+# --- geofeed.csv
+2803:8930::/32,PY,PY-10,,
+2803:8930::/48,PY,PY-10,Juan León Mallorquín,
+2803:8930:bebe::/48,PY,PY-10,Juan León Mallorquín,
+2803:8930:1000::/44,PY,PY-10,Juan León Mallorquín,
+#
+# --- geofeed-206.62.116.0_22.csv
+206.62.116.0/22,PY,PY-10,,

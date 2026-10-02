@@ -1,0 +1,43 @@
+# Zux Internet - AS271203 - geofeed RFC 8805 do bloco 179.49.176.0/22
+# Um arquivo por bloco cadastrado no Registro.br (so este bloco e sub-blocos).
+# Fonte e criterio de cada linha: zux-netdocs br/inventario/geofeed.md
+# Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
+# Atualizado: 2026-09-30
+#
+# Agregado: so o estado. Vale para faixa ainda sem linha propria (longest match).
+179.49.176.0/22,BR,BR-PR,,
+#
+# Campo Mourão (POP central CPM e CPM02 Paulista)
+179.49.176.0/28,BR,BR-PR,Campo Mourão,
+179.49.176.16/28,BR,BR-PR,Campo Mourão,
+# IPs fixos de PPPoE em 176.64-.80: faixa compartilhada entre BNGs (OSPF 2026-09-30).
+# A maioria e do CONC-CPM (inclui .66 NOC e .70 cliente dedicado); excecoes por /32 abaixo.
+179.49.176.64/28,BR,BR-PR,Campo Mourão,
+179.49.176.80/32,BR,BR-PR,Campo Mourão,
+179.49.176.96/28,BR,BR-PR,Campo Mourão,
+179.49.178.104/30,BR,BR-PR,Campo Mourão,
+# Mamboré (cliente dedicado via PK900-CPM, vlan 2102)
+179.49.176.172/30,BR,BR-PR,Mamboré,
+# Luiziana (LZN1 e LZN2; Bourbônia sai pelo LZN1)
+179.49.177.0/28,BR,BR-PR,Luiziana,
+179.49.177.128/26,BR,BR-PR,Luiziana,
+179.49.177.192/26,BR,BR-PR,Luiziana,
+# Iretama (inclui o distrito de Águas de Jurema)
+179.49.178.0/28,BR,BR-PR,Iretama,
+179.49.178.36/30,BR,BR-PR,Iretama,
+# Corumbataí do Sul
+179.49.176.65/32,BR,BR-PR,Corumbataí do Sul,
+179.49.176.68/32,BR,BR-PR,Corumbataí do Sul,
+179.49.176.76/32,BR,BR-PR,Corumbataí do Sul,
+179.49.176.168/30,BR,BR-PR,Corumbataí do Sul,
+179.49.179.224/28,BR,BR-PR,Corumbataí do Sul,
+# Barbosa Ferraz
+179.49.176.67/32,BR,BR-PR,Barbosa Ferraz,
+179.49.176.192/31,BR,BR-PR,Barbosa Ferraz,
+179.49.179.36/30,BR,BR-PR,Barbosa Ferraz,
+179.49.179.240/28,BR,BR-PR,Barbosa Ferraz,
+# Godoy Moreira
+179.49.176.152/29,BR,BR-PR,Godoy Moreira,
+179.49.179.40/30,BR,BR-PR,Godoy Moreira,
+# Engenheiro Beltrão (POP no condomínio Bananeiras 2, região de Ivailândia)
+179.49.176.160/29,BR,BR-PR,Engenheiro Beltrão,
