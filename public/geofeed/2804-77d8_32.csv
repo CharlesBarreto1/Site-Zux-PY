@@ -2,7 +2,7 @@
 # Um arquivo por bloco cadastrado no Registro.br (so este bloco e sub-blocos).
 # Fonte e criterio de cada linha: zux-netdocs br/inventario/geofeed.md
 # Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
-# Atualizado: 2026-09-30
+# Atualizado: 2026-10-08
 #
 # Agregado: so o estado. Vale para faixa ainda sem linha propria (longest match).
 2804:77d8::/32,BR,BR-PR,,
@@ -13,14 +13,12 @@
 # Campo Mourão (CPM1): WAN /51 e PD /43
 2804:77d8:100::/51,BR,BR-PR,Campo Mourão,
 2804:77d8:200::/43,BR,BR-PR,Campo Mourão,
-# Luiziana: LZN1 (novo e legado) e LZN2
-2804:77d8:20::/48,BR,BR-PR,Luiziana,
-2804:77d8:80::/42,BR,BR-PR,Luiziana,
+# Luiziana: LZN1 e LZN2 (legados 20::/48 e 80::/42 do LZN1 removidos em 2026-10-08)
 2804:77d8:100:2000::/51,BR,BR-PR,Luiziana,
 2804:77d8:100:8000::/51,BR,BR-PR,Luiziana,
 2804:77d8:220::/43,BR,BR-PR,Luiziana,
 2804:77d8:260::/43,BR,BR-PR,Luiziana,
-# Iretama (IRT e Águas de Jurema)
+# Iretama (IRT e Águas de Jurema; inclui os dedicados 2df::/48 e 100:dff0::/60)
 2804:77d8:100:c000::/51,BR,BR-PR,Iretama,
 2804:77d8:2c0::/43,BR,BR-PR,Iretama,
 # Corumbataí do Sul
