@@ -1,0 +1,9 @@
+# Zux Internet - geofeed RFC 8805 da designacao 179.49.178.0/24 (Registro.br)
+# Gerado de zux-netdocs br/inventario/geofeed-179.49.176.0_22.csv por geofeed-designacoes.py; nao editar a mao.
+# Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
+# Atualizado: 2026-10-10
+#
+179.49.178.0/24,BR,BR-PR,,
+179.49.178.104/30,BR,BR-PR,Campo Mourão,
+179.49.178.0/28,BR,BR-PR,Iretama,
+179.49.178.36/30,BR,BR-PR,Iretama,

@@ -1,0 +1,9 @@
+# Zux Internet - geofeed RFC 8805 da designacao 179.49.177.0/24 (Registro.br)
+# Gerado de zux-netdocs br/inventario/geofeed-179.49.176.0_22.csv por geofeed-designacoes.py; nao editar a mao.
+# Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
+# Atualizado: 2026-10-10
+#
+179.49.177.0/24,BR,BR-PR,,
+179.49.177.0/28,BR,BR-PR,Luiziana,
+179.49.177.128/26,BR,BR-PR,Luiziana,
+179.49.177.192/26,BR,BR-PR,Luiziana,

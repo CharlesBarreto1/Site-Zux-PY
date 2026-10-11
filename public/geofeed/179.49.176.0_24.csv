@@ -1,0 +1,20 @@
+# Zux Internet - geofeed RFC 8805 da designacao 179.49.176.0/24 (Registro.br)
+# Gerado de zux-netdocs br/inventario/geofeed-179.49.176.0_22.csv por geofeed-designacoes.py; nao editar a mao.
+# Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
+# Atualizado: 2026-10-10
+#
+179.49.176.0/24,BR,BR-PR,,
+179.49.176.0/28,BR,BR-PR,Campo Mourão,
+179.49.176.16/28,BR,BR-PR,Campo Mourão,
+179.49.176.64/28,BR,BR-PR,Campo Mourão,
+179.49.176.80/32,BR,BR-PR,Campo Mourão,
+179.49.176.96/28,BR,BR-PR,Campo Mourão,
+179.49.176.172/30,BR,BR-PR,Mamboré,
+179.49.176.65/32,BR,BR-PR,Corumbataí do Sul,
+179.49.176.68/32,BR,BR-PR,Corumbataí do Sul,
+179.49.176.76/32,BR,BR-PR,Corumbataí do Sul,
+179.49.176.168/30,BR,BR-PR,Corumbataí do Sul,
+179.49.176.67/32,BR,BR-PR,Barbosa Ferraz,
+179.49.176.192/31,BR,BR-PR,Barbosa Ferraz,
+179.49.176.152/29,BR,BR-PR,Godoy Moreira,
+179.49.176.160/29,BR,BR-PR,Engenheiro Beltrão,

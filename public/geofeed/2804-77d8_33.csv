@@ -1,0 +1,25 @@
+# Zux Internet - geofeed RFC 8805 da designacao 2804:77d8::/33 (Registro.br)
+# Gerado de zux-netdocs br/inventario/geofeed-2804-77d8_32.csv por geofeed-designacoes.py; nao editar a mao.
+# Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
+# Atualizado: 2026-10-10
+#
+2804:77d8::/33,BR,BR-PR,,
+2804:77d8::/48,BR,BR-PR,Campo Mourão,
+2804:77d8:100::/51,BR,BR-PR,Campo Mourão,
+2804:77d8:200::/43,BR,BR-PR,Campo Mourão,
+2804:77d8:100:2000::/51,BR,BR-PR,Luiziana,
+2804:77d8:100:8000::/51,BR,BR-PR,Luiziana,
+2804:77d8:220::/43,BR,BR-PR,Luiziana,
+2804:77d8:260::/43,BR,BR-PR,Luiziana,
+2804:77d8:100:c000::/51,BR,BR-PR,Iretama,
+2804:77d8:2c0::/43,BR,BR-PR,Iretama,
+2804:77d8:100:a000::/51,BR,BR-PR,Corumbataí do Sul,
+2804:77d8:2a0::/43,BR,BR-PR,Corumbataí do Sul,
+2804:77d8:10::/48,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:11::/48,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:12::/48,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:c0::/42,BR,BR-PR,Barbosa Ferraz,
+2804:77d8:100:6000::/51,BR,BR-PR,Godoy Moreira,
+2804:77d8:280::/43,BR,BR-PR,Godoy Moreira,
+2804:77d8:100:4000::/51,BR,BR-PR,Engenheiro Beltrão,
+2804:77d8:240::/43,BR,BR-PR,Engenheiro Beltrão,
