@@ -1,7 +1,7 @@
 # Zux - geofeed RFC 8805 consolidado (AS271203 BR e AS64179 PY)
 # Gerado a partir dos arquivos por bloco do zux-netdocs; nao editar a mao.
 # Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
-# Atualizado: 2026-10-08
+# Atualizado: 2026-10-10
 #
 # --- 179.49.176.0_22.csv
 179.49.176.0/22,BR,BR-PR,,
@@ -60,4 +60,6 @@
 2803:8930:1000::/44,PY,PY-10,Juan León Mallorquín,
 #
 # --- 206.62.116.0_22.csv
-206.62.116.0/22,PY,PY-10,,
+206.62.116.0/23,BR,BR-PR,Campo Mourão,
+206.62.118.0/24,BR,BR-PR,Campo Mourão,
+206.62.119.0/24,PY,PY-10,Juan León Mallorquín,
