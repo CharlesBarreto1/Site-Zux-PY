@@ -1,7 +1,7 @@
 # Zux PY - AS64179 - geofeed RFC 8805 do bloco 2803:8930::/32
 # Fonte e criterio de cada linha: zux-netdocs py/inventario/geofeed.md
 # Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
-# Atualizado: 2026-09-30
+# Atualizado: 2026-10-21
 # Sem IPv4 proprio: o 96.126.162.0/23 foi devolvido em 2026-09-29 e o /32 publico e da Ufinet.
 #
 # Agregado: so o departamento (Alto Paraná). Vale para faixa ainda sem linha propria.
@@ -12,3 +12,11 @@
 2803:8930:bebe::/48,PY,PY-10,Juan León Mallorquín,
 # Clientes do POP JLM (PD /45 + WAN /53). Atende Mallorquín e Santa Rita.
 2803:8930:1000::/44,PY,PY-10,Juan León Mallorquín,
+#
+# POP CDE (Ciudad del Este), desenhado em 2026-10-21. Nada em producao ainda.
+# Clientes: PD 2803:8930:2000::/45 (/56 cada) + WAN 2803:8930:2008::/53 (/64 cada)
+2803:8930:2000::/44,PY,PY-10,Ciudad del Este,
+# Gerencia do CDE (vlan 100). More-specific do bebe::/48, que aponta Mallorquin.
+2803:8930:bebe:cde::/64,PY,PY-10,Ciudad del Este,
+# Servicos e VMs do CDE (quando existirem).
+2803:8930:beef:cde::/64,PY,PY-10,Ciudad del Este,

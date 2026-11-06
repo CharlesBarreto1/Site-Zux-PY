@@ -1,7 +1,7 @@
 # Zux Internet - geofeed RFC 8805 da designacao 2804:77d8::/33 (Registro.br)
 # Gerado de zux-netdocs br/inventario/geofeed-2804-77d8_32.csv por geofeed-designacoes.py; nao editar a mao.
 # Formato: ip_prefix,alpha2code,region,city,postal_code (postal_code sempre vazio)
-# Atualizado: 2026-10-10
+# Atualizado: 2026-11-06
 #
 2804:77d8::/33,BR,BR-PR,,
 2804:77d8::/48,BR,BR-PR,Campo Mourão,
